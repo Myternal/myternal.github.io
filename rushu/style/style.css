@@ -1,0 +1,164 @@
+body {
+    background-color: #3C1518;
+    color: white
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    float: left;
+}
+
+.tg td {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-baqh {
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-c3ow {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: center
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+
+.checkbox {
+    margin: auto
+}
+
+.tf {
+    border-collapse: collapse;
+    border-spacing: 0;
+    right: 0;
+    float: right;
+    position: fixed
+}
+
+.tf td {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tf th {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tf .tf-baqh {
+    text-align: center;
+    vertical-align: top
+}
+
+.tf .tf-c3ow {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tf .tf-0lax {
+    text-align: left;
+    vertical-align: top
+}
+
+.checkbox {
+    margin: auto
+}
+
+#result-state1 {
+    cursor: pointer;
+}
+
+#result-state2 {
+    cursor: pointer;
+}
+
+#result-state3 {
+    cursor: pointer;
+}
+
+#result-state4 {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 60px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #5762D5;
+    cursor: pointer;
+}
+
+span {
+    color: orange;
+}
+
+#vestigevisual {
+    opacity: 0;
+    top: 0;
+    left: 30%;
+    position: fixed;
+    width: 440px;
+    padding: 15px;
+    border: 5px solid orange;
+    text-align: center;
+}
+
+#vestigevisual.active {
+    opacity: 1;
+}
+
+#turnalert {
+    opacity: 0;
+    bottom: 0;
+    left: 73%;
+    margin-bottom: 45px;
+    position: fixed;
+    width: 350px;
+    padding: 15px;
+    border: 5px solid orange;
+    text-align: center;
+}
+
+#turnalert.active {
+    opacity: 1;
+}
